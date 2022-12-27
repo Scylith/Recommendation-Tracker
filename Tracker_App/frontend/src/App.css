@@ -1,0 +1,139 @@
+#root {
+  
+  width: 100vw;
+  height: 100vw;
+  background: rgb(2,0,36);
+  background: #6BBAA7;
+}
+
+.body {
+  background-color: #6BBAA7;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+.needs-center{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container{
+  width: 100%;
+  margin: 1em auto;
+  background-color: #6c648B;
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+h2{
+  background-color: #6BBAA7;
+}
+
+.sign-out {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #6c648B;
+}
+
+.signIn {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #6c648B;
+}
+
+.signUp {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #6c648B;
+}
+
+.mycont {
+  background-color: #6BBAA7
+}
+
+.Navbar {
+  background-color: #6c648B;
+}
+
+.accordion-button {
+  margin: 0;
+  padding: 0;
+  background-color: #B6A19E!important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #356ea7;
+}
+
+.accordion-body {
+  background-color: #6BBAA7;
+}
+
+
+.accordion .item .accordion-body{
+  background-color: red;
+}
+
+div.list-group-item{
+  background-color:  #B6A19E;
+}
+
+.button-complete,
+.button-delete {
+  align-items: right;
+  justify-content: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete{
+  color: #28559A;
+  margin-right: 10px;
+}
+
+.button-delete {
+  color: #28559A;
+}
+
+div.card-body {
+  background-color:  #B6A19E;
+}
+
+.moreButton {
+  background-color: #28559A;
+}
+
+.movieDiv {
+  background-color: #6BBAA7;
+}
